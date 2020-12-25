@@ -1,0 +1,29 @@
+﻿@*@using StaticFiles.Models
+@model List<IndexModel>*@
+@{
+    ViewData["Title"] = "Index";
+}
+
+@*<h1>Index</h1>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Mesage</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.ID</td>
+                    <td>@item.Message</td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+<text>Total of product: @Model.Count</text>
+<h1>Hello from index</h1>*@
+

@@ -1,0 +1,5 @@
+F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\DISample\bin\Debug\netcoreapp3.1\DISample.Services.dll
+F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\DISample\obj\Debug\netcoreapp3.1\DISample.csprojAssemblyReference.cache
+F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\DISample\obj\Debug\netcoreapp3.1\DISample.AssemblyInfoInputs.cache
+F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\DISample\obj\Debug\netcoreapp3.1\DISample.AssemblyInfo.cs
+F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\DISample\obj\Debug\netcoreapp3.1\DISample.RazorTargetAssemblyInfo.cache
