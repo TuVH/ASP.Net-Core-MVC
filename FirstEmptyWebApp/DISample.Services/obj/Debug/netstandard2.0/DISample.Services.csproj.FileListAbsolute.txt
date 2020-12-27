@@ -1,0 +1,9 @@
+F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\DISample.Services\bin\Debug\netstandard2.0\DISample.Services.deps.json
+F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\DISample.Services\bin\Debug\netstandard2.0\DISample.Services.dll
+F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\DISample.Services\bin\Debug\netstandard2.0\DISample.Services.pdb
+F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\DISample.Services\obj\Debug\netstandard2.0\DISample.Services.csprojAssemblyReference.cache
+F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\DISample.Services\obj\Debug\netstandard2.0\DISample.Services.AssemblyInfoInputs.cache
+F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\DISample.Services\obj\Debug\netstandard2.0\DISample.Services.AssemblyInfo.cs
+F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\DISample.Services\obj\Debug\netstandard2.0\DISample.Services.csproj.CoreCompileInputs.cache
+F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\DISample.Services\obj\Debug\netstandard2.0\DISample.Services.dll
+F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\DISample.Services\obj\Debug\netstandard2.0\DISample.Services.pdb
