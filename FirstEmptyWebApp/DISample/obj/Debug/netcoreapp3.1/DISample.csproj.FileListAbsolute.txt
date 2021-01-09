@@ -5,7 +5,6 @@ F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\DISample\obj\Debug\netcore
 F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\DISample\obj\Debug\netcoreapp3.1\DISample.RazorTargetAssemblyInfo.cache
 F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\DISample\bin\Debug\netcoreapp3.1\appsettings.Development.json
 F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\DISample\bin\Debug\netcoreapp3.1\appsettings.json
-F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\DISample\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\DISample\bin\Debug\netcoreapp3.1\DISample.exe
 F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\DISample\bin\Debug\netcoreapp3.1\DISample.deps.json
 F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\DISample\bin\Debug\netcoreapp3.1\DISample.runtimeconfig.json
@@ -27,3 +26,4 @@ F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\DISample\obj\Debug\netcore
 F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\DISample\obj\Debug\netcoreapp3.1\DISample.dll
 F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\DISample\obj\Debug\netcoreapp3.1\DISample.pdb
 F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\DISample\obj\Debug\netcoreapp3.1\DISample.genruntimeconfig.cache
+F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\DISample\obj\Debug\netcoreapp3.1\scopedcss\bundle\DISample.styles.css

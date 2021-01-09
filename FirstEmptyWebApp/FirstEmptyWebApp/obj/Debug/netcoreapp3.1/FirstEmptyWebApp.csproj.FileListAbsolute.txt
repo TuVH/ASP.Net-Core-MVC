@@ -20,7 +20,6 @@ F:\ASP.Net-Core-MVC\FirstEmptyWebApp\FirstEmptyWebApp\obj\Debug\netcoreapp3.1\Fi
 F:\ASP.Net-Core-MVC\FirstEmptyWebApp\FirstEmptyWebApp\obj\Debug\netcoreapp3.1\FirstEmptyWebApp.genruntimeconfig.cache
 F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\FirstEmptyWebApp\bin\Debug\netcoreapp3.1\appsettings.Development.json
 F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\FirstEmptyWebApp\bin\Debug\netcoreapp3.1\appsettings.json
-F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\FirstEmptyWebApp\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\FirstEmptyWebApp\bin\Debug\netcoreapp3.1\FirstEmptyWebApp.exe
 F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\FirstEmptyWebApp\bin\Debug\netcoreapp3.1\FirstEmptyWebApp.deps.json
 F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\FirstEmptyWebApp\bin\Debug\netcoreapp3.1\FirstEmptyWebApp.runtimeconfig.json
@@ -38,3 +37,4 @@ F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\FirstEmptyWebApp\obj\Debug
 F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\FirstEmptyWebApp\obj\Debug\netcoreapp3.1\FirstEmptyWebApp.dll
 F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\FirstEmptyWebApp\obj\Debug\netcoreapp3.1\FirstEmptyWebApp.pdb
 F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\FirstEmptyWebApp\obj\Debug\netcoreapp3.1\FirstEmptyWebApp.genruntimeconfig.cache
+F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\FirstEmptyWebApp\obj\Debug\netcoreapp3.1\scopedcss\bundle\FirstEmptyWebApp.styles.css

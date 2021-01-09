@@ -1,6 +1,5 @@
 F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\StaticFiles\bin\Debug\netcoreapp3.1\appsettings.Development.json
 F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\StaticFiles\bin\Debug\netcoreapp3.1\appsettings.json
-F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\StaticFiles\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\StaticFiles\bin\Debug\netcoreapp3.1\StaticFiles.exe
 F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\StaticFiles\bin\Debug\netcoreapp3.1\StaticFiles.deps.json
 F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\StaticFiles\bin\Debug\netcoreapp3.1\StaticFiles.runtimeconfig.json
@@ -104,3 +103,4 @@ F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\StaticFiles\obj\Debug\netc
 F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\StaticFiles\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\StaticFiles\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Index.cshtml.g.cs
 F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\StaticFiles\obj\Debug\netcoreapp3.1\Razor\Views\Home\Create.cshtml.g.cs
+F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\StaticFiles\obj\Debug\netcoreapp3.1\scopedcss\bundle\StaticFiles.styles.css

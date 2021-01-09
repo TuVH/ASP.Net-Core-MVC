@@ -1,6 +1,7 @@
 ﻿using eShopSolution.Data.Configarutions;
 using eShopSolution.Data.Configurations;
 using eShopSolution.Data.Entities;
+using eShopSolution.Data.Extensions;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
@@ -45,7 +46,8 @@ namespace eShopSolution.Data.EntityFramework
             modelBuilder.Entity<IdentityUserToken<Guid>>().ToTable("AppUserTokens").HasKey(x => x.UserId);
             //base.OnModelCreating(modelBuilder);
 
-            
+            //Data sending
+            modelBuilder.Seed();
         }
         public DbSet<Product> Products { get; set; }
         public DbSet<AppConfig> Categories { get; set; }

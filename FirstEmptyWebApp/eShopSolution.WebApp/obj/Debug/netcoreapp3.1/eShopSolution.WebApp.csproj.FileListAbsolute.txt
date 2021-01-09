@@ -1,6 +1,5 @@
 F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\eShopSolution.WebApp\bin\Debug\netcoreapp3.1\appsettings.Development.json
 F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\eShopSolution.WebApp\bin\Debug\netcoreapp3.1\appsettings.json
-F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\eShopSolution.WebApp\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\eShopSolution.WebApp\bin\Debug\netcoreapp3.1\eShopSolution.WebApp.exe
 F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\eShopSolution.WebApp\bin\Debug\netcoreapp3.1\eShopSolution.WebApp.deps.json
 F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\eShopSolution.WebApp\bin\Debug\netcoreapp3.1\eShopSolution.WebApp.runtimeconfig.json
@@ -35,3 +34,4 @@ F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\eShopSolution.WebApp\obj\D
 F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\eShopSolution.WebApp\obj\Debug\netcoreapp3.1\eShopSolution.WebApp.pdb
 F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\eShopSolution.WebApp\obj\Debug\netcoreapp3.1\eShopSolution.WebApp.genruntimeconfig.cache
 F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\eShopSolution.WebApp\obj\Debug\netcoreapp3.1\eShopSolution.WebApp.csproj.CopyComplete
+F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\eShopSolution.WebApp\obj\Debug\netcoreapp3.1\scopedcss\bundle\eShopSolution.WebApp.styles.css
