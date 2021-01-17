@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+<form method="get" asp-action="LookupPoint">
+    <div class="row justify-content-center">
+        <div class="col-md-10 bg-secondary">
+            <h2 class="display-6 text-center">037 - SỞ GD&ĐT TPHCM</h2>
+            <h1 class="display-5 text-center">TRA CỨU ĐIỂM THI TỐT NGHIỆP THPT 2020</h1>
+            <p class="display-5 text-left px-5">Thí sinh nhập số báo danh vào ô dưới đây</p>
+            <div class="form-group row px-5">
+                <label for="SBD" class="col-sm-2 col-form-label"> Số báo danh</label>
+                <div class="col-md-6">
+                    <input type="text" name="ident" class="form-control" placeholder="Nhập số báo danh">
+                </div>
+            </div>
+            <div class="text-center" style="margin-bottom: 10px;">
+                
+                <input type="submit" asp-action="LookupPoint" class="btn btn-info " value="Tra cứu" />
+            </div>
+        </div>
+    </div>
+</form>
+
+

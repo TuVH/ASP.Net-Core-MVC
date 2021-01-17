@@ -1,0 +1,49 @@
+﻿@model PointsLookup.Models.Student
+@{
+    ViewData["Title"] = "LookupPoint";
+}
+
+<div class="container p-3">
+    @if (Model == null)
+    {
+        <h2 class="text-center text-danger">Không tìm thấy thông tin sinh viên.</h2>
+        <div class="text-center">
+            <a asp-action="Index" class="btn btn-info align-self-center">Quay về trang chủ</a>
+        </div>
+    }
+    else
+    {
+        <table class="table table-bordered table-striped" width="100%">
+            <thead>
+                <tr>
+                    <th>Tên</th>
+                    <th>Ngày sinh</th>
+                    <th>Điểm toán</th>
+                    <th>Điểm anh văn</th>
+                    <th>Điểm văn học</th>
+                    <th>Điểm hóa học</th>
+                    <th>Điểm vật lý</th>
+                    <th>Điểm sinh học</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+
+                    <td>@Model.Name</td>
+                    <td>@Model.DateOfBirth.ToString("dd/mm/yyyy")</td>
+                    <td>@Model.MathScores</td>
+                    <td>@Model.EnglishScores</td>
+                    <td>@Model.LiteratureScores</td>
+                    <td>@Model.ChemiscalScores</td>
+                    <td>@Model.PhysicalScores</td>
+                    <td>@Model.BiologicalScores</td>
+                </tr>
+
+            </tbody>
+        </table>
+        <div class="text-center">
+            <a asp-action="Index" class="btn btn-info align-self-center">Quay về trang chủ</a>
+        </div>
+    }
+</div>
+

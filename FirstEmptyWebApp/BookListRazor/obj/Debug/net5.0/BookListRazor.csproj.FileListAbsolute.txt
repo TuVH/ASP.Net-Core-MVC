@@ -388,3 +388,4 @@ F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\BookListRazor\bin\Debug\ne
 F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\BookListRazor\obj\Debug\net5.0\Razor\Pages\BookList\Index.cshtml.g.cs
 F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\BookListRazor\obj\Debug\net5.0\Razor\Pages\BookList\Create.cshtml.g.cs
 F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\BookListRazor\obj\Debug\net5.0\Razor\Pages\BookList\Edit.cshtml.g.cs
+F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\BookListRazor\obj\Debug\net5.0\Razor\Pages\BookList\Upsert.cshtml.g.cs

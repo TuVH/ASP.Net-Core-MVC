@@ -18,7 +18,7 @@ namespace BookListRazor.Pages.BookList
         }
         [BindProperty]
         public Book Book { get; set; }
-        
+
 
         public async Task OnGet(int id)
         {

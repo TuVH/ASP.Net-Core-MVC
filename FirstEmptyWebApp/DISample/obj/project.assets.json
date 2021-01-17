@@ -123,16 +123,6 @@
             "rid": "win"
           }
         }
-      },
-      "DISample.Services/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/DISample.Services.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DISample.Services.dll": {}
-        }
       }
     }
   },
@@ -397,16 +387,10 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "DISample.Services/1.0.0": {
-      "type": "project",
-      "path": "../DISample.Services/DISample.Services.csproj",
-      "msbuildProject": "../DISample.Services/DISample.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "DISample.Services >= 1.0.0",
       "Stripe.net >= 39.31.0"
     ]
   },
@@ -436,11 +420,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {
-            "F:\\ASP.Net-Core-MVC\\ASP.Net-Core-MVC\\FirstEmptyWebApp\\DISample.Services\\DISample.Services.csproj": {
-              "projectPath": "F:\\ASP.Net-Core-MVC\\ASP.Net-Core-MVC\\FirstEmptyWebApp\\DISample.Services\\DISample.Services.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

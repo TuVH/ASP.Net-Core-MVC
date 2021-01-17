@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> PointsLookup</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="//fontawesome/css/all.css" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-info navbar-dark">
+        
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid bg-info text-white text-center">
+        <div class="container">
+            <h1 class="display-1">Chào mừng các bạn</h1>
+            <p class="lead">Tìm kiếm mọi thông tin ở đây...</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- cards -->
+        <div>
+            @RenderBody()
+        </div>
+    </div>
+
+    <footer class="page-footer font-small bg-info py-3 fixed-bottom">
+        <div class="footer-copyright text-center ">© 2020 Copyright: 037 - SỞ GD&ĐT TPHCM</div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
