@@ -1,9 +1,0 @@
-F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\eShopSolution.Application\bin\Debug\netcoreapp3.1\eShopSolution.Application.deps.json
-F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\eShopSolution.Application\bin\Debug\netcoreapp3.1\eShopSolution.Application.dll
-F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\eShopSolution.Application\bin\Debug\netcoreapp3.1\eShopSolution.Application.pdb
-F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\eShopSolution.Application\obj\Debug\netcoreapp3.1\eShopSolution.Application.AssemblyInfoInputs.cache
-F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\eShopSolution.Application\obj\Debug\netcoreapp3.1\eShopSolution.Application.AssemblyInfo.cs
-F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\eShopSolution.Application\obj\Debug\netcoreapp3.1\eShopSolution.Application.csproj.CoreCompileInputs.cache
-F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\eShopSolution.Application\obj\Debug\netcoreapp3.1\eShopSolution.Application.dll
-F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\eShopSolution.Application\obj\Debug\netcoreapp3.1\eShopSolution.Application.pdb
-F:\ASP.Net-Core-MVC\ASP.Net-Core-MVC\FirstEmptyWebApp\eShopSolution.Application\obj\Debug\netcoreapp3.1\eShopSolution.Application.csprojAssemblyReference.cache
