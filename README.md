@@ -1,9 +1,10 @@
-# How to run the application
-Technology
-C#
-ASP.NET Core
-Entity Framework Core
-MSSQL, MySQL, SQLite, PostgreSQL
-Prerequisites
-Visual Studio 2017
-.NET Core 2.0 (https://www.microsoft.com/net/core)
+# PointsLookup Project
+##Technology
+###C#
+###ASP.NET Core
+###Entity Framework Core
+###SQLSever
+##Prerequisites
+###Visual Studio 2019
+###.NET Core 5.0 (https://www.microsoft.com/net/core)
+##How to run on local
