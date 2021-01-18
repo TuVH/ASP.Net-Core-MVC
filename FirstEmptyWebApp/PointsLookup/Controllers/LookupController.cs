@@ -1,10 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using PointsLookup.Data;
-using PointsLookup.Models;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace PointsLookup.Controllers
 {
@@ -26,12 +22,24 @@ namespace PointsLookup.Controllers
         //Get LookupPoint
         public IActionResult LookupPoint(string ident)
         {
+            //Nếu SDB = null => quay về trang index
             if (ident == null)
             {
                 return RedirectToAction("Index");
             }
-            var student = _db.Students.SingleOrDefault(s => s.IdentNumber == ident);
-            return View(student);
+            //Tra về kq thí sinh
+            var result = _db.Results.SingleOrDefault(s => s.IdentNumber == ident).Select(s => new
+            {
+                s.Student.Name,
+                s.Student.DateOfBirth,
+                s.MathScores,
+                s.EnglishScores,
+                s.LiteratureScores,
+                s.ChemiscalScores,
+                s.PhysicalScores,
+                s.BiologicalScores
+            });
+            return View(result);
         }
     }
     }

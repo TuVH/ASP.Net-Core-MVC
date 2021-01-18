@@ -9,16 +9,10 @@ namespace PointsLookup.Models
     public class Student
     {
         [Key]
-        public int Id { get; set; }
-        [Required(ErrorMessage = "Vui lòng không bỏ trống số báo danh")]
-        public string IdentNumber { get; set; }
+        public string CMND { get; set; }
         public string Name { get; set; }
         public DateTime DateOfBirth { get; set; }
-        public double MathScores { get; set; }
-        public double EnglishScores { get; set; }
-        public double LiteratureScores { get; set; }
-        public double ChemiscalScores { get; set; }
-        public double PhysicalScores { get; set; }
-        public double BiologicalScores { get; set; }
+
+        public ICollection<Result> Result { get; set; }
     }
 }

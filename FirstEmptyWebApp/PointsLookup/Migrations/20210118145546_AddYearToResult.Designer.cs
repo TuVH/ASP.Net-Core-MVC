@@ -10,8 +10,8 @@ using PointsLookup.Data;
 namespace PointsLookup.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20210117070755_AddStudentToDb")]
-    partial class AddStudentToDb
+    [Migration("20210118145546_AddYearToResult")]
+    partial class AddYearToResult
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -21,7 +21,7 @@ namespace PointsLookup.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.2");
 
-            modelBuilder.Entity("PointsLookup.Models.Student", b =>
+            modelBuilder.Entity("PointsLookup.Models.Result", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -31,17 +31,16 @@ namespace PointsLookup.Migrations
                     b.Property<double>("BiologicalScores")
                         .HasColumnType("float");
 
+                    b.Property<string>("CMND_Student")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<double>("ChemiscalScores")
                         .HasColumnType("float");
-
-                    b.Property<DateTime>("DateOfBirth")
-                        .HasColumnType("datetime2");
 
                     b.Property<double>("EnglishScores")
                         .HasColumnType("float");
 
                     b.Property<string>("IdentNumber")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<double>("LiteratureScores")
@@ -50,15 +49,50 @@ namespace PointsLookup.Migrations
                     b.Property<double>("MathScores")
                         .HasColumnType("float");
 
-                    b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<double>("PhysicalScores")
                         .HasColumnType("float");
 
+                    b.Property<string>("StudentCMND")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("Year")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
+                    b.HasIndex("StudentCMND");
+
+                    b.ToTable("Results");
+                });
+
+            modelBuilder.Entity("PointsLookup.Models.Student", b =>
+                {
+                    b.Property<string>("CMND")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("DateOfBirth")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("CMND");
+
                     b.ToTable("Students");
+                });
+
+            modelBuilder.Entity("PointsLookup.Models.Result", b =>
+                {
+                    b.HasOne("PointsLookup.Models.Student", "Student")
+                        .WithMany("Result")
+                        .HasForeignKey("StudentCMND");
+
+                    b.Navigation("Student");
+                });
+
+            modelBuilder.Entity("PointsLookup.Models.Student", b =>
+                {
+                    b.Navigation("Result");
                 });
 #pragma warning restore 612, 618
         }

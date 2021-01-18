@@ -1,4 +1,4 @@
-﻿@model PointsLookup.Models.Student
+﻿@model PointsLookup.Models.Result
 @{
     ViewData["Title"] = "LookupPoint";
 }
@@ -29,8 +29,8 @@
             <tbody>
                 <tr>
 
-                    <td>@Model.Name</td>
-                    <td>@Model.DateOfBirth.ToString("dd/mm/yyyy")</td>
+                    <td>@Model.Student.Name</td>
+                    <td>@Model.Student.DateOfBirth.ToString("dd/mm/yyyy")</td>
                     <td>@Model.MathScores</td>
                     <td>@Model.EnglishScores</td>
                     <td>@Model.LiteratureScores</td>
