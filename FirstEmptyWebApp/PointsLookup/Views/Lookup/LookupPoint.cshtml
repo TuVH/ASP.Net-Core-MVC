@@ -1,4 +1,4 @@
-﻿@model PointsLookup.Models.Result
+﻿@model PointsLookup.ViewModel.SearchResultViewModel
 @{
     ViewData["Title"] = "LookupPoint";
 }
@@ -6,9 +6,9 @@
 <div class="container p-3">
     @if (Model == null)
     {
-        <h2 class="text-center text-danger">Không tìm thấy thông tin sinh viên.</h2>
+        <h2 class="text-center text-danger">không tìm thấy thông tin sinh viên.</h2>
         <div class="text-center">
-            <a asp-action="Index" class="btn btn-info align-self-center">Quay về trang chủ</a>
+            <a asp-action="index" class="btn btn-info align-self-center">quay về trang chủ</a>
         </div>
     }
     else
@@ -16,22 +16,22 @@
         <table class="table table-bordered table-striped" width="100%">
             <thead>
                 <tr>
-                    <th>Tên</th>
-                    <th>Ngày sinh</th>
-                    <th>Điểm toán</th>
-                    <th>Điểm anh văn</th>
-                    <th>Điểm văn học</th>
-                    <th>Điểm hóa học</th>
-                    <th>Điểm vật lý</th>
-                    <th>Điểm sinh học</th>
+                    <th>tên</th>
+                    <th>ngày sinh</th>
+                    <th>điểm toán</th>
+                    <th>điểm anh văn</th>
+                    <th>điểm văn học</th>
+                    <th>điểm hóa học</th>
+                    <th>điểm vật lý</th>
+                    <th>điểm sinh học</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-
-                    <td>@Model.Student.Name</td>
-                    <td>@Model.Student.DateOfBirth.ToString("dd/mm/yyyy")</td>
-                    <td>@Model.MathScores</td>
+                   
+                    <td>@Model.Name</td>
+                    <td>@Model.DateOfBirth.ToString("dd/mm/yyyy")</td>
+                    <td>@Model.MathScore</td>
                     <td>@Model.EnglishScores</td>
                     <td>@Model.LiteratureScores</td>
                     <td>@Model.ChemiscalScores</td>
@@ -42,7 +42,7 @@
             </tbody>
         </table>
         <div class="text-center">
-            <a asp-action="Index" class="btn btn-info align-self-center">Quay về trang chủ</a>
+            <a asp-action="index" class="btn btn-info align-self-center">quay về trang chủ</a>
         </div>
     }
 </div>

@@ -60,7 +60,7 @@ namespace PointsLookup.Data
                 {
                     Id = 2,
                     CMND_Student = "079201005182",
-                    IdentNumber = "742005",
+                    IdentNumber = "742001",
                     MathScores = 8.5,
                     BiologicalScores = 4,
                     ChemiscalScores = 4,

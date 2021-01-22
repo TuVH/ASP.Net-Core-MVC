@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using PointsLookup.Data;
+using PointsLookup.Models;
+using PointsLookup.ViewModel;
 using System.Linq;
 
 namespace PointsLookup.Controllers
@@ -27,20 +29,41 @@ namespace PointsLookup.Controllers
             {
                 return RedirectToAction("Index");
             }
+
+
             //Tra về kq thí sinh
-            var result = _db.Results.SingleOrDefault(s => s.IdentNumber == ident).Select(s => new
+            var result = (from s in _db.Results
+                          from u in _db.Students
+                          where s.CMND_Student == u.CMND && s.IdentNumber.Equals(ident)
+                          select new
+                          {
+                              u.Name,
+                              u.DateOfBirth,
+                              s.MathScores,
+                              s.EnglishScores,
+                              s.LiteratureScores,
+                              s.ChemiscalScores,
+                              s.PhysicalScores,
+                              s.BiologicalScores
+                          }).FirstOrDefault();
+            if (result != null)
             {
-                s.Student.Name,
-                s.Student.DateOfBirth,
-                s.MathScores,
-                s.EnglishScores,
-                s.LiteratureScores,
-                s.ChemiscalScores,
-                s.PhysicalScores,
-                s.BiologicalScores
-            });
+                var finalResult = new SearchResultViewModel
+                {
+                    Name = result.Name,
+                    MathScore = result.MathScores,
+                    BiologicalScores = result.BiologicalScores,
+                    ChemiscalScores = result.ChemiscalScores,
+                    EnglishScores = result.EnglishScores,
+                    DateOfBirth = result.DateOfBirth,
+                    LiteratureScores = result.LiteratureScores,
+                    PhysicalScores = result.PhysicalScores
+                };
+                return View(finalResult);
+            }
             return View(result);
+
         }
     }
-    }
+}
 
