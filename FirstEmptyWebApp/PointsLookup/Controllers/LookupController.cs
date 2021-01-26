@@ -18,6 +18,7 @@ namespace PointsLookup.Controllers
         //Get Index 
         public IActionResult Index()
         {
+            
             return View();
         }
 
